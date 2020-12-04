@@ -1,8 +1,11 @@
 # Dyreprojekt
 
-To faner med choiceboxes:
+Link til video af projektet: https://vimeo.com/487221359?ref=em-share
+
+Tre faner med choiceboxes:
 - den ene en billedefremviser.
 - den anden en lydafspiller.
+- den tredje en videofremviser.
 
 Dokumentation fra Scene builder og af log ligger under src.
 

@@ -11,26 +11,32 @@
 <?import javafx.scene.media.MediaView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="335.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0"
+         prefWidth="335.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/11.0.1"
+         xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
     <tabs>
 
         <Tab text="Dyrefotos">
             <content>
                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                     <children>
-                        <Button fx:id="photoPortal" layoutX="34.0" layoutY="73.0" mnemonicParsing="false" onAction="#choosePhoto" text="Vælg et foto i listen" />
-                        <TextField fx:id="nameOfPhoto" layoutX="35.0" layoutY="108.0" promptText="Vælg et foto i listen" />
-                        <ImageView fx:id="photoSelected" fitHeight="191.0" fitWidth="255.0" layoutX="35.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true" />
-                        <ChoiceBox fx:id="dropDownMenuPhotos" layoutX="35.0" layoutY="38.0" prefWidth="150.0" value="horse">
+                        <Button fx:id="photoPortal" layoutX="34.0" layoutY="73.0" mnemonicParsing="false"
+                                onAction="#choosePhoto" text="Vælg et foto i listen"/>
+                        <TextField fx:id="nameOfPhoto" layoutX="35.0" layoutY="108.0"
+                                   promptText="Vælg et foto i listen"/>
+                        <ImageView fx:id="photoSelected" fitHeight="191.0" fitWidth="255.0" layoutX="35.0"
+                                   layoutY="143.0" pickOnBounds="true" preserveRatio="true"/>
+                        <ChoiceBox fx:id="dropDownMenuPhotos" layoutX="35.0" layoutY="38.0" prefWidth="150.0"
+                                   value="horse">
                             <items>
                                 <FXCollections fx:factory="observableArrayList">
-                                    <String fx:value="bird" />
-                                    <String fx:value="cat" />
-                                    <String fx:value="dog" />
-                                    <String fx:value="elephant" />
-                                    <String fx:value="horse" />
-                                    <String fx:value="monkey" />
-                                    <String fx:value="pig" />
+                                    <String fx:value="bird"/>
+                                    <String fx:value="cat"/>
+                                    <String fx:value="dog"/>
+                                    <String fx:value="elephant"/>
+                                    <String fx:value="horse"/>
+                                    <String fx:value="monkey"/>
+                                    <String fx:value="pig"/>
                                 </FXCollections>
                             </items>
                         </ChoiceBox>
@@ -43,19 +49,23 @@
             <content>
                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                     <children>
-                        <Button fx:id="soundPortal" layoutX="34.0" layoutY="73.0" mnemonicParsing="false" onAction="#chooseSound" text="Vælg en lyd i listen" />
-                        <TextField fx:id="nameOfSound" layoutX="35.0" layoutY="108.0" promptText="Vælg en lyd i listen" />
-                        <MediaView fx:id="soundSelected" fitHeight="191.0" fitWidth="255.0" layoutX="35.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true" />
-                        <ChoiceBox fx:id="dropDownMenuSounds" layoutX="35.0" layoutY="38.0" prefWidth="150.0" value="hund">
+                        <Button fx:id="soundPortal" layoutX="34.0" layoutY="73.0" mnemonicParsing="false"
+                                onAction="#chooseSound" text="Vælg en lyd i listen"/>
+                        <TextField fx:id="nameOfSound" layoutX="35.0" layoutY="108.0"
+                                   promptText="Vælg en lyd i listen"/>
+                        <MediaView fx:id="soundSelected" fitHeight="191.0" fitWidth="255.0" layoutX="35.0"
+                                   layoutY="143.0" pickOnBounds="true" preserveRatio="true"/>
+                        <ChoiceBox fx:id="dropDownMenuSounds" layoutX="35.0" layoutY="38.0" prefWidth="150.0"
+                                   value="hund">
                             <items>
                                 <FXCollections fx:factory="observableArrayList">
-                                    <String fx:value="fugl" />
-                                    <String fx:value="kat" />
-                                    <String fx:value="hund" />
-                                    <String fx:value="elefant" />
-                                    <String fx:value="hest" />
-                                    <String fx:value="abe" />
-                                    <String fx:value="gris" />
+                                    <String fx:value="fugl"/>
+                                    <String fx:value="kat"/>
+                                    <String fx:value="hund"/>
+                                    <String fx:value="elefant"/>
+                                    <String fx:value="hest"/>
+                                    <String fx:value="abe"/>
+                                    <String fx:value="gris"/>
                                 </FXCollections>
                             </items>
                         </ChoiceBox>
@@ -63,30 +73,34 @@
                 </AnchorPane>
             </content>
         </Tab>
-      <Tab text="Dyrevideoer">
-         <content>
-            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
-               <children>
-                  <Button fx:id="videoPortal" layoutX="34.0" layoutY="73.0" mnemonicParsing="false" onAction="#chooseVideo" text="Vælg en video i listen" />
-                  <TextField fx:id="nameOfVideo" layoutX="35.0" layoutY="108.0" promptText="Vælg en video i listen" />
-                   <MediaView fx:id="videoSelected" fitHeight="191.0" fitWidth="255.0" layoutX="35.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true" />
-                  <ChoiceBox fx:id="dropDownMenuVideos" layoutX="35.0" layoutY="38.0" prefWidth="150.0" value="katte">
-                     <items>
-                        <FXCollections fx:factory="observableArrayList">
-                           <String fx:value="abe" />
-                           <String fx:value="elefant" />
-                           <String fx:value="fugl" />
-                           <String fx:value="grise" />
-                           <String fx:value="hest" />
-                           <String fx:value="hund" />
-                           <String fx:value="katte" />
-                        </FXCollections>
-                     </items>
-                  </ChoiceBox>
-               </children>
-            </AnchorPane>
-         </content>
-      </Tab>
+        <Tab text="Dyrevideoer">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                    <children>
+                        <Button fx:id="videoPortal" layoutX="34.0" layoutY="73.0" mnemonicParsing="false"
+                                onAction="#chooseVideo" text="Vælg en video i listen"/>
+                        <TextField fx:id="nameOfVideo" layoutX="35.0" layoutY="108.0"
+                                   promptText="Vælg en video i listen"/>
+                        <MediaView fx:id="videoSelected" fitHeight="191.0" fitWidth="255.0" layoutX="35.0"
+                                   layoutY="143.0" pickOnBounds="true" preserveRatio="true"/>
+                        <ChoiceBox fx:id="dropDownMenuVideos" layoutX="35.0" layoutY="38.0" prefWidth="150.0"
+                                   value="katte">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="abe"/>
+                                    <String fx:value="elefant"/>
+                                    <String fx:value="fugl"/>
+                                    <String fx:value="grise"/>
+                                    <String fx:value="hest"/>
+                                    <String fx:value="hund"/>
+                                    <String fx:value="katte"/>
+                                </FXCollections>
+                            </items>
+                        </ChoiceBox>
+                    </children>
+                </AnchorPane>
+            </content>
+        </Tab>
 
     </tabs>
 </TabPane>

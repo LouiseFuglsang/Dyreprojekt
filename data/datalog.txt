@@ -87,3 +87,15 @@ Fri Dec 04 13:46:18 CET 2020 - Afspillede lyd fra hund
 Fri Dec 04 13:47:32 CET 2020 - Viste foto af horse
 Fri Dec 04 13:47:34 CET 2020 - Afspillede lyd fra hund
 Fri Dec 04 13:47:37 CET 2020 - Afspillede video af katte
+Fri Dec 04 13:54:47 CET 2020 - Viste foto af bird
+Fri Dec 04 13:54:51 CET 2020 - Viste foto af elephant
+Fri Dec 04 13:54:56 CET 2020 - Viste foto af monkey
+Fri Dec 04 13:55:04 CET 2020 - Afspillede lyd fra hest
+Fri Dec 04 13:55:11 CET 2020 - Afspillede lyd fra fugl
+Fri Dec 04 13:55:21 CET 2020 - Afspillede video af fugl
+Fri Dec 04 13:55:40 CET 2020 - Afspillede video af katte
+Fri Dec 04 13:55:54 CET 2020 - Afspillede video af abe
+Fri Dec 04 13:56:15 CET 2020 - Afspillede video af elefant
+Fri Dec 04 13:56:36 CET 2020 - Afspillede lyd fra hund
+Fri Dec 04 13:56:38 CET 2020 - Afspillede lyd fra hund
+Fri Dec 04 13:56:47 CET 2020 - Afspillede lyd fra hund

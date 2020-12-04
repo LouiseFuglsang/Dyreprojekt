@@ -15,9 +15,9 @@ import javafx.scene.image.ImageView;
 import javafx.scene.media.MediaView;
 
 
-
 public class Controller {
 
+    // Foto
     @FXML
     private ChoiceBox dropDownMenuPhotos;
     @FXML
@@ -25,13 +25,13 @@ public class Controller {
     @FXML
     private ImageView photoSelected;
 
-
+    // Lyd
     @FXML
     private ChoiceBox dropDownMenuSounds;
     @FXML
     private TextField nameOfSound;
 
-
+    // Video
     @FXML
     private ChoiceBox dropDownMenuVideos;
     @FXML
@@ -39,8 +39,7 @@ public class Controller {
     @FXML
     private MediaView videoSelected;
 
-
-
+    // Bruger får mulighed for at vælge foto, se foto og handling skrives i loggen
     @FXML
     void choosePhoto(ActionEvent event) {
 
@@ -67,6 +66,9 @@ public class Controller {
         }
 
     }
+
+
+    // Bruger får mulighed for at vælge lyd, afspille lyd og handling skrives i loggen
     @FXML
     void chooseSound(ActionEvent event) {
 
@@ -96,9 +98,8 @@ public class Controller {
 
     }
 
-
+    // Bruger får mulighed for at vælge video, se og høre video og handling skrives i loggen
     @FXML
-
     void chooseVideo(ActionEvent event) {
 
         String videoer = (String) dropDownMenuVideos.getValue();
@@ -131,4 +132,3 @@ public class Controller {
 
     }
 }
-
